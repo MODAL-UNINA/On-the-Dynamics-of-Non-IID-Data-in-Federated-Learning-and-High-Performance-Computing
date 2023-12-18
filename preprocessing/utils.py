@@ -1,7 +1,6 @@
-
 # %%
-import sys
 import os
+import sys
 import torch
 import psutil
 import GPUtil
@@ -222,7 +221,7 @@ def separate_data(data, num_clients, num_classes, niid=False,
     myshow()
 
     fig, ax = plt.subplots(figsize=(0.4*num_clients, 0.4*num_classes))
-    circles = [plt.Circle((i,j), radius=r) for r, j, i in zip(R.flat, x_mesh.flat, y_mesh.flat)]
+    circles = [plt.Circle((i, j), radius=r) for r, j, i in zip(R.flat, x_mesh.flat, y_mesh.flat)]
     col = PatchCollection(circles, array=c.flatten(), cmap=cm_color, zorder=10)
     ax.add_collection(col)
 
@@ -258,4 +257,3 @@ def plot_loss_accuracy_server(history):
     plt.ylabel("accuracy")
     plt.legend()
     plt.show()
-# %%
