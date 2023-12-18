@@ -1,4 +1,4 @@
-# On-the-Dynamics-of-Non-IID-Data-in-Federated-Learning-and-High-Performance-Computing
+# On the Dynamics of Non-IID Data in Federated Learning and High Performance Computing
 
 This is the implemetation code for the paper (link): Daniela Annunziata, Marzia Canzaniello, Diletta Chiaro, Stefano Izzo, Martina Savoia, Francesco Piccialli, On the Dynamics of Non-IID Data in Federated Learning and High-Performance Computing.
 
