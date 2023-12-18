@@ -8,3 +8,9 @@ This paper investigates the symbiosis of Federated Learning (FL) and High-Perfor
 This research contributes to the ongoing discourse on efficient and scalable algorithms, providing insights for collaborative learning in the era of diverse HPC architectures.
 
 # Requirements
+
+# Usage: 
+To run the Federated Learning process, execute the following command, varying the worker_id number, the device and the server IP.
+```python
+python client.py --worker_id 1 --device 0 --server_IP "localhost:8080"
+```
